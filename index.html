@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/uikit.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body class="bg-indigo-100">
+    <div style="background-color: red; position: fixed; bottom: 0; right: 0; z-index: 1;"><a href="#top" style="color: white; padding: 5px;">Top</a></div>
+    <nav class="flex items-center justify-between flex-wrap  p-6 bg-indigo-900" id="top"> 
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+            <img src="Images/Logo.jpg" alt="" class="rounded-full">
+          <span class="font-semibold text-xl tracking-tight ml-2">Team AstroGold</span>
+        </div>
+        
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <a href="#CO2_emmission" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+              CO2 Emmission
+            </a>
+            <a href="#temp_rise" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+              Temperature Rise
+            </a>
+            <a href="#ice_melt" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+              Ice Melting
+            </a>
+            <a href="#sustain_us" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white " style="margin-left: 20px;">
+              Sustain US
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <h1 class="uk-heading-line uk-text-center"><span>Welcome to The Earth</span></h1>
+
+      <div class="uk-position-relative uk-visible-toggle uk-light slider" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: true" >
+
+        <ul class="uk-slider-items uk-grid">
+            
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <img src="Images/Earth_temp.jpg" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <p class="uk-margin-remove">Earth due to increase in temperature.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <img src="Images/Earth(ice).png" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <p class="uk-margin-remove">Earth due to melting of ice.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="uk-width-3-4">
+              <div class="uk-panel">
+                  <img src="Images/Earth(Carbon).jpg" alt="">
+                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                      <p class="uk-margin-remove">Earth due to high emission of CO<sub>2</sub></p>
+                  </div>
+              </div>
+          </li>
+            <li class="uk-width-3-4">
+                <div class="uk-panel">
+                    <img src="Images/Earth(climate).jpg" alt="">
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center uk-transition-slide-bottom">
+                        <h3 class="uk-margin-remove">Bottom</h3>
+                        <p class="uk-margin-remove">Earth due to overall climate change.</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+    
+    </div>
+
+    <div class="bg-indigo-900 text-white mt-8 p-2" >
+      <h3 class="text-white text-4xl ml-32">What did you just see in above images?</h3>
+      <p class="ml-40">What you saw in above images is different Earth's images due to causes like 'Emission of Carbon','Increase in temperature',
+        'Melting of ice glacier'  and 'Climate change'.
+      </p>
+    </div>
+
+
+
+    <div class="uk-panel p-4">
+      <img class="uk-align-left uk-margin-remove-adjacent " src="Images/carbon_cycle.jpg" width="40%"  alt="Example image">
+      <h1>Carbon Cycle?</h1>
+      <p class="text-xl">Carbon is the backbone of life on Earth. 
+        We are made of carbon, we eat carbon, and our civilizations—our economies, our homes, 
+        our means of transport—are built on carbon. We need carbon, but that need is also entwined with one of the most serious problems facing us today: 
+        global climate change..
+      </p>
+      <p class="text-xl"> Forged in the heart of aging stars, carbon is the fourth most abundant element in the Universe. Most of Earth’s carbon—about 65,500 billion metric tons—is stored in rocks..</p>
+      <p class="text-xl"> Carbon flows between each reservoir in an exchange called the carbon cycle, which has slow and fast components. Any change in the cycle that shifts carbon out of one reservoir puts more carbon in the other reservoirs. Changes that put carbon gases into the atmosphere result in warmer temperatures on Earth.</p>
+      <strong class="text-xl text-blue-900"> The diagram on the left side is  of the fast carbon cycle shows the movement of carbon between land, atmosphere, and oceans. Yellow numbers are natural fluxes, and red are human contributions in gigatons of carbon per year. White numbers indicate stored carbon. (Diagram adapted from U.S. DOE, Biological and Environmental Research Information System.)</strong>
+    </div>
+
+    <div class="bg-indigo-900 text-white mt-8 p-2" >
+      <h3 class="text-white text-4xl ml-32">Got It?</h3>
+      <p class="ml-40">If not, just know that carbon is everywhere and important for us.   </p>
+      <p class="ml-40">If Carbon is so important what's wrong with this. Well, have patience and read below.   </p>
+    </div>
+    <div class="uk-panel p-4" id="CO2_emmission">
+      <img class="uk-align-center uk-align-right@m uk-margin-remove-adjacent"  src="Images/CO2-graph.jpg" width="20%"  alt="Example image">
+      <p class="text-xl">Carbon dioxide (CO2) is an important heat-trapping (greenhouse) gas, which is released through human activities such as deforestation and burning fossil fuels, as well as natural processes such as respiration and volcanic eruptions. The above graph shows CO2 levels measured at Mauna Loa Observatory, Hawaii, in recent years, with average seasonal cycle removed.
+      </p>
+      <strong class="text-xl text-blue-900"> The diagram on the right side shows carbon dioxide is at 412 parts per million (or ppm), that means in one million particles of air there are 412 particles of carbon dioxide. Many scientists think that 350 ppm is a much healthier number and that we should try to reduce our use of fossil fuels to get that number back. This is increasing our Earth’s temperature.  </strong>
+        
+    </div>
+    <div class="uk-panel p-4">
+      <img class="uk-align-center uk-align-right@m uk-margin-remove-adjacent"  src="Images/CO2.png" width="20%" alt="Example image">
+      <p class="text-xl">Carbon dioxide levels have shot up since the beginning of the Industrial Age. Many scientists think we need to get the level of carbon dioxide in our atmosphere down to 350 parts per million or less.
+        We need to keep a close watch on this number. Carbon dioxide levels have gone sky-high in the past 100 years. Many scientists think that 350 ppm is a much healthier number and that we should try to reduce our use of fossil fuels to get that number back.
+      </p>
+      <p class="text-xl">CThe heat-trapping nature of carbon dioxide and other gases was demonstrated in the mid-19th century.2 Their ability to affect the transfer of infrared energy through the atmosphere is the scientific basis of many instruments flown by NASA. There is no question that increased levels of greenhouse gases must cause the Earth to warm in response.
+      </p>
+    </div>
+    <div class="uk-panel p-4">
+      <video class="uk-align-center uk-align-right@m uk-margin-remove-adjacent"  src="clips/CO2.mp4" width="20%" alt="Example video" autoplay loop></video>
+      <strong class="text-xl text-blue-900"> The time series shows global distribution and variation of the concentration of mid-tropospheric carbon dioxide in parts per million (ppm). The overall color of the map shifts toward the red with advancing time due to the annual increase of CO2. </strong>
+      
+    </div>
+
+    <div class="bg-indigo-900 text-white mt-8 p-2" >
+      <h3 class="text-white text-4xl ml-32">Know what can Carbon do?</h3>
+      <p class="ml-40">Well, that's just beginning. Continue below.   </p>
+    </div>
+    <div class="uk-panel p-4"  id="temp_rise">
+      <img class="uk-align-left uk-margin-remove-adjacent " src="Images/Temp1.png" width="20%"  alt="Example image">
+      <h2>Why small increase in temperature a big deal?</h2>
+      <p class="text-xl">The global average temperature combines the temperatures of all the hot places, all the cold places, and all the places in between. It is a very important measure of changes going on in Earth's machinery. A rise of just one degree Fahrenheit (°F) on a sunny day where you live has little effect. But over the whole Earth, a rise of 1°F makes a big difference. Just think, normally, water at 32°F is solid ice. But water at 33°F is liquid water.
+      </p>
+      <strong class="text-xl text-blue-900"> This graph illustrates the change in global surface temperature relative to 1951-1980 average temperatures. Nineteen of the 20 warmest years all have occurred since 2001, with the exception of 1998. The year 2016 ranks as the warmest on record (source: NASA/GISS).S</strong>
+    </div>
+
+    <div class="uk-panel p-4">
+      <img class="uk-align-left uk-margin-remove-adjacent " src="Images/temp2.jpg" width="20%"  alt="Example image">
+      <p class="text-xl">The planet's average surface temperature has risen about 2.05 degrees Fahrenheit (1.14 degrees Celsius) since the late 19th century, a change driven largely by increased carbon dioxide and other human-made emissions into the atmosphere.4 Most of the warming occurred in the past 40 years, with the six warmest years on record taking place since 2014. Not only was 2016 the warmest year on record, but eight of the 12 months that make up the year — from January through September, with the exception of June — were the warmest on record for those respective months.
+      </p>
+    </div>
+    <div class="uk-panel p-4">
+      <video class="uk-align-center uk-align-left@m uk-margin-remove-adjacent"  src="clips/Temp.mp4" width="20%" alt="Example video" autoplay loop></video>
+      <p class="text-xl">Carbon is the backbone of life on Earth. 
+        We are made of carbon, we eat carbon, and our civilizations—our economies, our homes, 
+        our means of transport—are built on carbon. We need carbon, but that need is also entwined with one of the most serious problems facing us today: 
+        global climate change..
+      </p>
+      <strong class="text-xl text-blue-900"> The time series above shows the five-year average variation of global surface temperatures. Dark blue indicates areas cooler than average. Dark red indicates areas warmer than average.</strong>
+    </div>
+
+
+
+    <div class="bg-indigo-900 text-white mt-8 p-2" >
+      <h3 class="text-white text-4xl ml-32">Feeling something?</h3>
+      <p class="ml-40">If you are having feeling of fear, be ready to multiply it. </p>
+    </div>
+
+    <div class="uk-panel p-4" id="ice_melt">
+      <img class="uk-align-center uk-align-right@m uk-margin-remove-adjacent"  src="Images/Ice2.png" width="20%"  alt="Example image">
+      <h2>What is happening to the ice?</h2>
+      <p class="text-xl">During the winter, the top layer of the ocean near the North Pole freezes solid. Every summer some of this ice melts. But not all of it melts. Some of the ice is so thick it stays frozen all the time, even throughout the summer. However, since 1979, when Earth-observing satellites began watching, the ice remaining at the end of summer has been getting smaller and smaller. At the end of summer 2009, the ice was only two-thirds as large as at the end of the summer of 1979. In August 2012, is was the smallest on record.
+      </p>
+      <strong class="text-xl text-blue-900">This graph tracks the change in sea level since 1993 as observed by satellites. Data shown are latest available, with time allowed for processing </strong>
+        
+    </div>
+    <div class="uk-panel p-4">
+      <img class="uk-align-center uk-align-right@m uk-margin-remove-adjacent"  src="Images/Ice1.jpg" width="20%" alt="Example image">
+      <p class="text-xl">Sea level rise is caused primarily by two factors related to global warming: the added water from melting ice sheets and glaciers and the expansion of seawater as it warms. The above graph, derived from coastal tide gauge data, shows how much sea level changed from about 1870 to 2013.
+      </p>
+    </div>
+    <div class="uk-panel p-4">
+      <video class="uk-align-center uk-align-right@m uk-margin-remove-adjacent"  src="clips/Ice.mp4" width="20%" alt="Example video" autoplay loop></video>
+      <strong class="text-xl text-blue-900"> The time series above shows the annual Arctic sea ice minimum since 1979, based on satellite observations. The 2012 sea ice extent is the lowest in the satellite record. </strong>
+    </div>
+
+    <div class="bg-indigo-900 text-white mt-8 p-2" >
+      <h2 class="text-white text-4xl ml-32">Wanna do something to save our planet?</h2>
+      <p class="ml-40">If you are thinking you need to do big to save our planet. That's not right. See around you and suprisingly you can do things that could 
+        help sustain our planet. You don't need to do big. Well, let me suggest some ways in case you are confused.
+      </p>
+    </div>
+
+    <div class="row m-4" id="sustain_us">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text p-4">
+            <h3 class="card-title">NASA Models Show Trees Can Slow Increase of Atmospheric Carbon</h3>
+            <p>Research suggested that the southeast region of the United States has the most favorable conditions for afforestation due to its subtropical climate. 
+              In addition, model results suggested that large areas of croplands in South Dakota, Minnesota and Wisconsin showed potential for carbon management and shouldn’t be underestimated.</p>
+             <p>
+              Using plants and soil to store atmospheric carbon dioxide could become part of our country’s enhanced land use management. 
+              Generalized global estimates of stored carbon in afforested areas vary between temperate and tropical regions, but range as high as 4.5 billion tons of carbon per year, say scientists. 
+              These estimates are from model results, not actual measurements, and many questions, scientific and economic, must be answered before such land use practices are adopted.
+             </p> 
+          </div>
+          <div class="card-action">
+            <a href="https://www.nasa.gov/vision/earth/environment/afforestation.html?fbclid=IwAR0TAc5NRsz2o-OfZdXYAXJ-KdiRRlHApNLnvaoaxuPOzs7-FcBADs3C7Tc#backtoTop">Know more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-4">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text p-4">
+            <h3 class="card-title">Keeping transportation green</h3>
+            <p>You have places to go and things to do. But how can you go in the greenest way? Play Go Green! and learn how.
+
+              In this game, you see a map of a city, with a grid of streets, and various buildings. For each turn, you are given a list of things to do. This is your mission.
+              
+              Each part of your mission will take you to a different location. Your job is to decide what mode of transportation you will use to get from one place to another. Try to pick the form of transportation that will have the least impact on the environment, while getting you where you need to go, and on time.</p>
+             
+          </div>
+          <div class="card-action">
+            <a href="https://climatekids.nasa.gov/go-green/">Know more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row m-4">
+      <div class="col s12 m6">
+        <div class="card blue-grey darken-1">
+          <div class="card-content white-text p-4">
+            <h3 class="card-title">Global Green Up Slows Warming</h3>
+            <p>Scientists previously established that the world is greener than it was in the early 1980s. Updated maps show that the trend has continued, and researchers say reduced global warming is among the consequences.</p>
+             <p>There is a clear greening trend in boreal and Arctic regions, a result of rising temperatures. For example, Svalbard in the high-Arctic has seen a 30 percent increase in greenness, according to Rama Nemani of NASA’s Ames Research Center, a co-author of the review paper in Nature Reviews Earth & Environment. The greening was concurrent with an increase in mean summer temperature from 2.9° to 4.7° Celsius (37.2° to 40.5° Fahrenheit) between 1986 and 2015.
+            </p>
+            <p>
+              There is an interesting consequence of this global green up: as vegetation consumes some of the heat-trapping carbon dioxide it also performs evapotranspiration—a function similar to human sweating—which can have a cooling effect on the air. Scientists say that global greening since the early 1980s may have reduced global warming by as much as 0.2° to 0.25° Celsius (0.36° to 0.45° Fahrenheit). In othe
+            </p>
+          </div>
+          <div class="card-action">
+            <a href="https://earthobservatory.nasa.gov/images/146296/global-green-up-slows-warming">Know more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div>
+      <h3>Souces:</h3>
+      <ul>
+        <li><cite><a href="https://earthobservatory.nasa.gov/images/146296/global-green-up-slows-warming">https://earthobservatory.nasa.gov/images/146296/global-green-up-slows-warming</a></cite></li>
+        <li><cite><a href="https://climatekids.nasa.gov/go-green/">https://climatekids.nasa.gov/go-green/</a></cite></li>
+        <li><cite><a href="https://www.nasa.gov/sites/default/files/481133main_NASA_Green_Initiatives.pdf"><https://www.nasa.gov/sites/default/files/481133main_NASA_Green_Initiatives.pdf/a></cite></li>
+        <li><cite><a href="https://climate.nasa.gov/evidence/">https://climate.nasa.gov/evidence/</a></cite></li>
+        <li><cite><a href="https://climate.nasa.gov/vital-signs/arctic-sea-ice/">https://climate.nasa.gov/vital-signs/arctic-sea-ice/</a></cite></li>
+        <li><cite><a href="https://climate.nasa.gov/vital-signs/carbon-dioxide/">https://climate.nasa.gov/vital-signs/carbon-dioxide/</a></cite></li>    
+        <li><cite><a href="https://climatekids.nasa.gov/carbon/">https://climatekids.nasa.gov/carbon/</a></cite></li>
+        <li><cite><a href="https://www.nasa.gov/multimedia/imagegallery/index.html">https://www.nasa.gov/multimedia/imagegallery/index.html</a></cite></li>
+        <li><cite><a href="https://www.jpl.nasa.gov/spaceimages/index.php?category=Universe">https://www.jpl.nasa.gov/spaceimages/index.php?category=Universe</a></cite></li>
+        <li><cite><a href="https://climate.nasa.gov/vital-signs/global-temperature/">https://climate.nasa.gov/vital-signs/global-temperature/</a></cite></li> 
+        <li><cite><a href="https://climate.nasa.gov/vital-signs/ice-sheets/">https://climate.nasa.gov/vital-signs/ice-sheets/</a></cite></li>  
+
+      </ul>
+    </div>
+
+
+
+
+    <footer class="page-footer bg-blue-900 p-4 mt-4" style="color: white;">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text" style="color: white;">Save Our planet, save humanity.</h5>
+            <p class="grey-text text-lighten-4">Your small steps can make bigger change. This is not his or her home , this is our home, our planet. 
+              
+            </p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text" style="color: white;">Our Team</h5>
+            <ul style="color:white">
+              <li>Sweejal</li>
+              <li>Rahul Yadav</li>
+              <li>Bishal Bhurtel</li>
+              <li>Krishchal Khanal</li>
+              <li>Dharmananda Shah</li>
+              <li>Razz Basel</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2014 Copyright 
+        <span style="margin-left: 40%;" >Made with love by <strong><i>Rahul Yadav</i></strong></span>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+</body>
+</html>
